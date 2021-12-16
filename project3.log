@@ -1,0 +1,15 @@
+ERROR 2021-12-17 01:09:03,190 [WrapperListener_start_runner] [processor: ; event: ] org.mule.runtime.module.deployment.impl.internal.application.DefaultMuleApplication: There were '4' errors while parsing the given file 'project3.xml'.
+Full list:
+org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 98; cvc-complex-type.4: Attribute 'variableName' must appear on element 'set-variable'.
+org.xml.sax.SAXParseException; lineNumber: 24; columnNumber: 77; cvc-datatype-valid.1.2.3: '' is not a valid value of union type 'expressionString'.
+org.xml.sax.SAXParseException; lineNumber: 24; columnNumber: 77; cvc-attribute.3: The value '' of attribute 'operation' on element 'wsc:consume' is not valid with respect to its type, 'expressionString'.
+org.xml.sax.SAXParseException; lineNumber: 24; columnNumber: 77; cvc-complex-type.4: Attribute 'config-ref' must appear on element 'wsc:consume'.
+
+org.mule.runtime.api.exception.MuleRuntimeException: There were '4' errors while parsing the given file 'project3.xml'.
+Full list:
+org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 98; cvc-complex-type.4: Attribute 'variableName' must appear on element 'set-variable'.
+org.xml.sax.SAXParseException; lineNumber: 24; columnNumber: 77; cvc-datatype-valid.1.2.3: '' is not a valid value of union type 'expressionString'.
+org.xml.sax.SAXParseException; lineNumber: 24; columnNumber: 77; cvc-attribute.3: The value '' of attribute 'operation' on element 'wsc:consume' is not valid with respect to its type, 'expressionString'.
+org.xml.sax.SAXParseException; lineNumber: 24; columnNumber: 77; cvc-complex-type.4: Attribute 'config-ref' must appear on element 'wsc:consume'.
+
+INFO  2021-12-17 01:09:03,195 [WrapperListener_start_runner] [processor: ; event: ] org.mule.runtime.module.deployment.impl.internal.artifact.AbstractDeployableArtifact: Application 'project3' never started, nothing to dispose of
